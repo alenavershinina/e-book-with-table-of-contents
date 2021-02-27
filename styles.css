@@ -1,0 +1,72 @@
+body {
+    font-family: 'Shippori Mincho', serif;
+    text-align: justify;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.content {
+    padding: 50px 0;
+    overflow: hidden;
+    width: 50%;
+}
+
+.content-without-sidebar {
+    margin: 0 25%;
+}
+
+.content-with-sidebar {
+    margin: 0 15% 0 35%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+button {
+    float: left;
+    position: fixed;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #111;
+    color: #818181;
+}
+
+.sidebar {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #111;
+    overflow: auto;
+    display: block;
+}
+
+ul {
+    padding: 50px;
+}
+
+
+li a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #818181;
+    display: block;
+}
+
+li a:hover {
+    color: #f1f1f1;
+}
